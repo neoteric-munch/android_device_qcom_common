@@ -39,7 +39,7 @@ ________________________________________________________________________________
                 <Prop Name="vendor.perf.fps_switch_hyst_time_secs" Value="10" />
                 <Prop Name="ro.vendor.perf.enable.prekill"        Value="false"     />
                 <Prop Name="ro.vendor.perf.enable.procomp" Value="true"/>
-                <Prop Name="ro.vendor.perf.enable.prefapps" Value="false" />
+                <Prop Name="ro.vendor.perf.enable.prefapps" Value="true" />
                 <Prop Name="vendor.prekill_MIN_ADJ_to_Kill" Value="800"  />
                 <Prop Name="vendor.prekill_MAX_ADJ_to_Kill" Value="1000"  />
                 <Prop Name="ro.vendor.perf.count.prefapps" Value="12" />
@@ -49,9 +49,9 @@ ________________________________________________________________________________
                 <Prop Name="vendor.debug.enable.memperfd"         Value="false"    />
                 <Prop Name="vendor.enable.memperfd_MIN_RAM_in_KB" Value="1048576"  />
                 <Prop Name="vendor.enable.memperfd_MAX_RAM_in_KB" Value="12582912" />
-                <Prop Name="ro.vendor.perf.ss" Value="false" Target="kalama"/>
-                <Prop Name="ro.vendor.perf.lal" Value="false" Target="kalama"/>
-                <Prop Name="ro.vendor.perf.lgl" Value="false" Target="kalama" SkewType="10"/>
+                <Prop Name="ro.vendor.perf.ss" Value="true" Target="kalama"/>
+                <Prop Name="ro.vendor.perf.lal" Value="true" Target="kalama"/>
+                <Prop Name="ro.vendor.perf.lgl" Value="true" Target="kalama" SkewType="10"/>
 
                 <!--System Properties -->
                 <Prop Name="ro.lmk.kill_heaviest_task_dup" Value="true" />

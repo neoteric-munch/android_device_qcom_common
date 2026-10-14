@@ -48,7 +48,7 @@ ________________________________________________________________________________
                 <!-- END Performance_BoostFramework -->
                 <Prop Name="ro.vendor.perf.enable.procomp" Value="true"/>
                 <!-- MIUI MOD: Performance_BoostFramework -->
-                <Prop Name="ro.vendor.perf.enable.prefapps" Value="false" />
+                <Prop Name="ro.vendor.perf.enable.prefapps" Value="true" />
                 <!-- END Performance_BoostFramework -->
                 <Prop Name="vendor.prekill_MIN_ADJ_to_Kill" Value="800"  />
                 <Prop Name="vendor.prekill_MAX_ADJ_to_Kill" Value="1000"  />
@@ -59,10 +59,10 @@ ________________________________________________________________________________
                 <Prop Name="vendor.debug.enable.memperfd"         Value="true"     />
                 <Prop Name="vendor.enable.memperfd_MIN_RAM_in_KB" Value="1048576"  />
                 <Prop Name="vendor.enable.memperfd_MAX_RAM_in_KB" Value="4000000" />
-                <Prop Name="ro.vendor.perf.ss" Value="false" Target="pineapple,cliffs"/>
-                <Prop Name="ro.vendor.perf.ssv2" Value="false" Target="pineapple,cliffs"/>
-                <Prop Name="ro.vendor.perf.lal" Value="false" Target="pineapple,cliffs"/>
-                <Prop Name="ro.vendor.perf.lgl" Value="false" Target="pineapple,cliffs" SkewType="10"/>
+                <Prop Name="ro.vendor.perf.ss" Value="true" Target="pineapple,cliffs"/>
+                <Prop Name="ro.vendor.perf.ssv2" Value="true" Target="pineapple,cliffs"/>
+                <Prop Name="ro.vendor.perf.lal" Value="true" Target="pineapple,cliffs"/>
+                <Prop Name="ro.vendor.perf.lgl" Value="true" Target="pineapple,cliffs" SkewType="10"/>
 
                 <!--System Properties -->
                 <!--LMKD Properties -->
