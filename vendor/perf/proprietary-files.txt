@@ -1,6 +1,3 @@
-# IRQBalance from fuxi OS3.0.308.0.WMCCNXM
-vendor/bin/msm_irqbalance|2c29bed4bc587ae7715674855c71b9540e5edd9e
-
 # All unpinned blobs below are extracted from xuanyuan OS3.0.312.0.WOACNXM
 vendor/bin/hw/vendor.qti.hardware.perf2-hal-service
 vendor/bin/hw/vendor.qti.hardware.servicetrackeraidl-service

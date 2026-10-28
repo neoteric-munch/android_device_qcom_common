@@ -35,6 +35,12 @@ PRODUCT_COPY_FILES += \
     $(QCOM_COMMON_PATH)/vendor/perf-legacy/poweropt-service-disable.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/poweropt-service-disable.rc
 endif
 
+# Disable msm_irqbalance on > 5.15 targets.
+ifeq (,$(filter 3.18 4.4 4.9 4.14 4.19 5.4 5.10 5.15, $(TARGET_KERNEL_VERSION)))
+PRODUCT_COPY_FILES += \
+    $(QCOM_COMMON_PATH)/vendor/perf-legacy/msm-irqbalance-disable.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/msm-irqbalance-disable.rc
+endif
+
 # Flag for inheriting qspm aidl on > 5.15 targets
 ifeq (,$(filter 3.18 4.4 4.9 4.14 4.19 5.4 5.10 5.15, $(TARGET_KERNEL_VERSION)))
     include $(QCOM_COMMON_PATH)/vendor/qspm-6.1/qti-qspm-6.1.mk
