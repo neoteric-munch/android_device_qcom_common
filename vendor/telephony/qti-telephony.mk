@@ -74,7 +74,7 @@ PRODUCT_PACKAGES += \
     android.hardware.radio-V3-ndk.vendor
 
 PRODUCT_VENDOR_PROPERTIES += \
-    persist.radio.multisim.config=dsds \
+    persist.radio.multisim.config?=dsds \
     persist.vendor.radio.apm_sim_not_pwdn=1 \
     persist.vendor.radio.custom_ecc=1 \
     persist.vendor.radio.procedure_bytes=SKIP \
